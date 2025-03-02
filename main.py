@@ -30,7 +30,7 @@ client_gspread = gspread.authorize(credentials)
 
 # Open spreadsheet and select worksheet
 spreadsheet_name = "Gruppenarbeit Knowledge Management"
-worksheet_name = "test2"
+worksheet_name = "llama3-8b-8192"
 spreadsheet = client_gspread.open(spreadsheet_name)
 worksheet = spreadsheet.worksheet(worksheet_name)
 
